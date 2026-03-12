@@ -1,46 +1,37 @@
-# Secure File Encryption & Decryption Tool
+# Cryptographic File Protector
 
-## Overview
+## Project Overview
 
-The Secure File Encryption & Decryption Tool is a Python-based cybersecurity utility designed to protect sensitive data through strong cryptographic techniques.
+The Secure File Encryption & Decryption Tool is a command-line cybersecurity application developed in Python to protect sensitive digital information using modern cryptographic techniques.
 
-This project demonstrates practical implementation of:
+The system showcases practical implementation of secure data protection mechanisms such as password-based key generation, authenticated symmetric encryption, and integrity validation. It simulates the workflow of real-world secure storage utilities that are designed to prevent unauthorized access to confidential files.
 
-* Password-based key derivation
-* Symmetric encryption using modern cryptography
-* File integrity verification
-* Secure handling of user data
-
-It simulates a real-world security utility that can be used to safeguard confidential files from unauthorized access.
-
-The system combines encryption, hashing, and authentication concepts to create a complete secure file workflow.
+By combining encryption, hashing, and verification processes, the tool demonstrates how layered security controls can be used to maintain both data confidentiality and authenticity.
 
 
-## Key Features
+## Key Capabilities
 
-* AES-based secure file encryption using Fernet
-* Password-derived encryption keys (PBKDF2 + SHA-256)
-* Automatic random salt generation
-* File integrity verification using SHA-256 hashing
-* Protection against wrong password attempts
-* Detection of tampered or corrupted files
-* Command-line interactive interface
-* Cross-platform compatibility
-
-
-## Cryptographic Concepts Implemented
-
-This project demonstrates real cybersecurity engineering practices:
-
-* Key derivation from passwords (PBKDF2HMAC)
-* Secure random salt generation
-* Symmetric encryption with authenticated encryption mode
-* File hashing for integrity verification
-* Secure storage structure for encrypted data
-
-These mechanisms simulate how secure storage systems and encrypted file vaults operate in production environments.
+* Strong file encryption using authenticated symmetric cryptography
+* Encryption keys generated securely from user passwords
+* Dynamic random salt creation for enhanced security
+* Integrity verification using SHA-256 hashing
+* Detection of incorrect passwords during decryption
+* Identification of altered or corrupted encrypted data
+* Interactive terminal-based user interface
+* Compatible across different operating systems
 
 
+## Cryptographic Principles Demonstrated
+
+This project reflects applied cybersecurity engineering concepts, including:
+
+* Password-derived key generation using PBKDF2-HMAC
+* Secure randomization through salt values
+* Authenticated encryption ensuring confidentiality and authenticity
+* Hash-based validation to confirm file integrity
+* Structured storage of encrypted data components
+
+These mechanisms collectively represent foundational practices used in encrypted storage systems and secure data vault implementations.
 
 ## Project Structure
 ```
@@ -138,55 +129,56 @@ Warning: Integrity compromised!
 ```
 
 
-## Security Strength
+## Security Significance
 
-This project demonstrates strong defensive cybersecurity engineering skills:
+The tool highlights defensive cybersecurity development practices by:
 
-* Prevents unauthorized file access
-* Detects data tampering attempts
-* Implements industry-grade cryptographic practices
-* Protects confidentiality and integrity simultaneously
-* Demonstrates secure software development mindset
-
-
-## Performance
-
-* Processes files efficiently using chunk-based hashing
-* Lightweight encryption suitable for local systems
-* Fast password-based key derivation
-* Minimal memory footprint
+* Restricting unauthorized access to protected files
+* Enabling detection of tampering or integrity compromise
+* Applying recognized cryptographic standards
+* Maintaining both confidentiality and verification controls
+* Demonstrating secure software design thinking
 
 
-## Security & Ethical Use
 
-This project is intended for:
+## Performance Considerations
 
-* Cybersecurity education
-* Secure programming practice
-* Cryptography learning
-* Defensive security research
-
-It should not be used for malicious concealment of illegal data.
+* Efficient handling of large files through chunk-based hashing
+* Lightweight encryption suitable for local execution environments
+* Optimized password-based key derivation process
+* Low system resource consumption during operations
 
 
-## Learning Objectives
+## Responsible and Ethical Usage
 
-Through this project, the following cybersecurity skills are demonstrated:
+This project is designed strictly for educational and research purposes such as:
 
-* Applied cryptography implementation
-* Secure key management concepts
-* File integrity validation mechanisms
-* Defensive secure software engineering
-* Password-based encryption design
-* Practical security tool development
+* Cybersecurity skill development
+* Secure coding practice
+* Applied cryptography experimentation
+* Defensive security tool design
+
+It must not be used to conceal or facilitate unlawful activities.
+
+
+## Learning Outcomes
+
+Development of this tool demonstrates understanding of:
+
+* Practical cryptography implementation
+* Secure password and key handling strategies
+* File validation and integrity assurance techniques
+* Defensive software engineering methodologies
+* Secure data protection architecture
+* Building functional cybersecurity utilities
 
 
 ## Author
 
-Developed as part of a hands-on cybersecurity learning initiative focused on secure coding and defensive engineering practices.
+This project was created as part of a hands-on cybersecurity learning journey aimed at strengthening secure programming skills and defensive engineering awareness.
 
 
 ## License
 
-This project is intended for educational and research purposes.
-Use responsibly and only in authorized environments.
+Provided for educational and research use.
+Users are expected to apply this tool responsibly within authorized environments.
