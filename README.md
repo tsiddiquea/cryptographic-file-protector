@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The Secure File Encryption & Decryption Tool is a command-line cybersecurity application developed in Python to protect sensitive digital information using modern cryptographic techniques.
+The Cryptographic File Protector Tool is a command-line cybersecurity application developed in Python to protect sensitive digital information using modern cryptographic techniques.
 
 The system showcases practical implementation of secure data protection mechanisms such as password-based key generation, authenticated symmetric encryption, and integrity validation. It simulates the workflow of real-world secure storage utilities that are designed to prevent unauthorized access to confidential files.
 
@@ -35,7 +35,7 @@ These mechanisms collectively represent foundational practices used in encrypted
 
 ## Project Structure
 ```
-secure-file-encryption-tool/
+cryptographic-file-protector-tool/
 │
 ├── secure_file_tool.py      # Main encryption & decryption logic
 ├── test.txt                 # Sample file for testing
